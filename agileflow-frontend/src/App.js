@@ -1,8 +1,18 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Dashboard from './pages/Dashboard';
+import Backlog from './pages/Backlog';
+import Sprint from './pages/Sprint';
+
 function App() {
   return (
     <div>
       <h1>Welcome to AgileFlow</h1>
-      <p>This is the beginning of our Agile project management system.</p>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/backlog" element={<Backlog />} />
+        <Route path="/sprint" element={<Sprint />} />
+      </Routes>
     </div>
   );
 }
