@@ -1,0 +1,124 @@
+/* General Styling */
+.dashboard-container {
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Header Styling */
+.dashboard-header {
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  padding: 40px;
+  color: #ecf0f1;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.dashboard-header:hover {
+  transform: scale(1.02);
+}
+
+.dashboard-header h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.dashboard-header p {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* Stats Section */
+.dashboard-stats {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #1b2631;
+  padding: 30px;
+  color: #e74c3c;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  width: 220px;
+}
+
+.stat-card h2 {
+  font-size: 38px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.stat-card p {
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* Hover Effect */
+.stat-card:hover {
+  background: #2980b9;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+/* Project Overview Section */
+.dashboard-content {
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.dashboard-content:hover {
+  transform: scale(1.02);
+}
+
+.dashboard-content h3 {
+  font-size: 28px;
+  color: #3498db;
+}
+
+.dashboard-content p {
+  font-size: 18px;
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  background: linear-gradient(135deg, #e67e22, #d35400);
+  color: #fff;
+  padding: 15px 35px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  background: linear-gradient(135deg, #d35400, #c0392b);
+  transform: scale(1.07);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
